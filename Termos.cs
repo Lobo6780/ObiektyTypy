@@ -21,11 +21,10 @@ namespace ConsoleApp7
         public int pojemnosc;
         public int waga;
         public int cena;
-        public string zawartosc;
-        private Herbata herbata;
+        public Herbata zawartosc;
         public Termos(Herbata aherbata)
         {
-            this.herbata = aherbata;
+            this.zawartosc = aherbata;
         }
         public void polej()
         {
