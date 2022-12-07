@@ -6,6 +6,16 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp7
 {
+    class Herbata
+    {
+        public string krajPochodzenia;
+        public string nazwa;
+        public string aromat;
+        public void sparz()
+        {
+            Console.WriteLine("Parzę...");
+        }
+    }
     class Termos
     {
         public int pojemnosc;
@@ -24,16 +34,6 @@ namespace ConsoleApp7
         public void umyj()
         {
             Console.WriteLine("Myję...");
-        }
-    }
-    class Herbata
-    {
-        public string krajPochodzenia;
-        public string nazwa;
-        public string aromat;
-        public void sparz()
-        {
-            Console.WriteLine("Parzę...");
         }
     }
     internal class Program
